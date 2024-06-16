@@ -2,9 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import MiApi from './components/MiApi';
-import { useState } from 'react';
 import './App.css';
-import Buscador from './components/Buscador';
 
 export default function App() {
 
@@ -16,23 +14,23 @@ export default function App() {
             <Navbar.Brand href="#home"><img src="\icons\Rick-and-Morty.png" alt="Rick and Morty logo" style={{ width: 120 + 'px' }} /></Navbar.Brand>s
           </Nav>
           <Nav>
-            <Nav.Link >Characters</Nav.Link>
-            <Nav.Link >Locations</Nav.Link>
-            <Nav.Link >Episodes</Nav.Link>
+            <Nav.Link href='https://github.com/DanielHernandezToledo/RickAndMorty'>Github</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
 
       <div className="bgimg">
         <div className="overlay">
-          <div className="container">
-          <h1 className='text-end'>Rick and Morty</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iusto expedita ea autem doloribus natus eum dolores explicabo architecto nesciunt deleniti aliquid, voluptate quisquam eligendi consequuntur necessitatibus similique quibusdam. Maiores?</p>
+          <div className="container d-flex flex-column align-items-end justify-content-end">
+          <h1 className='text-end fw-bold'>Rick and Morty</h1>
+          <p className='h3'>Find your favorite characters</p>
           </div>
         </div>
       </div>
 
-      <MiApi />
+      <MiApi
+        className='bgAll'
+      />
     </>
   )
 }

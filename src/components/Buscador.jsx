@@ -1,12 +1,16 @@
 const Buscador = ({ find, handleFindChange }) => {
     return (
-        <input
-          type="text"
-          className="form-control w-25"
-          placeholder="Character Name..."
-          value={find}
-          onChange={handleFindChange}
-        />
+        <div className="d-flex">
+            <label className="text-success" htmlFor="characterFinder">Character Name:</label>
+            <input
+                id="characterFinder"
+                type="text"
+                className="form-control"
+                placeholder="Character Name..."
+                value={find}
+                onChange={handleFindChange}
+            />
+        </div>
     )
 }
 
