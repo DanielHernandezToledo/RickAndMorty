@@ -14,6 +14,8 @@ El proyecto muestra como se realiza el consumo de la Api de Rick and Morti, most
 Además se agrega la opción de filtro de nombre y de orden alfabético.
 
 El enlace de la api es el siguiente: https://rickandmortyapi.com/api/character
+El enlace del video es el siguiente: https://www.youtube.com/watch?v=nUoN6nQwUvA
+El deploy es el siguiente: https://rickandmortydaht.netlify.app
 
 
 ## Tecnologías Usadas 🛠️
