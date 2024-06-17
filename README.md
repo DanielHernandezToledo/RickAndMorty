@@ -1,8 +1,35 @@
-# React + Vite
+# Módulo 4 REACT I - Desafío 4 - Consumo API - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Presentación Página Web
 
-Currently, two official plugins are available:
+![Presentación Página Web](./public/img/pagina.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## <br/>
+
+<br/>
+
+## Descripción del PY ⌨️
+
+El proyecto muestra como se realiza el consumo de la Api de Rick and Morti, mostrando los personajes de la serie en diferentes páginas.
+Además se agrega la opción de filtro de nombre y de orden alfabético.
+
+El enlace de la api es el siguiente: https://rickandmortyapi.com/api/character
+
+
+## Tecnologías Usadas 🛠️
+
+- **HTML** 💀
+- **CSS** 🎆
+- **JS** 🧑‍💻
+- **REACT JS** 👌
+- **React-Bootstrap** 📚
+
+<br/>
+
+---
+
+<br>
+
+## Autor 👨‍💻
+
+**Desarrollador FullStack G-60 - Daniel Hernández T.⚡**

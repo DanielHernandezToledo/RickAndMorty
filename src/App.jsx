@@ -11,7 +11,7 @@ export default function App() {
       <Navbar bg="black" data-bs-theme="dark" style={{ maxHeight: 60 + 'px' }}>
         <Container>
           <Nav className="me-auto">
-            <Navbar.Brand href="#home"><img src="\icons\Rick-and-Morty.png" alt="Rick and Morty logo" style={{ width: 120 + 'px' }} /></Navbar.Brand>s
+            <Navbar.Brand href="#home"><img src="\icons\Rick-and-Morty.png" alt="Rick and Morty logo" style={{ width: 120 + 'px' }} /></Navbar.Brand>
           </Nav>
           <Nav>
             <Nav.Link href='https://github.com/DanielHernandezToledo/RickAndMorty'>Github</Nav.Link>
@@ -28,9 +28,7 @@ export default function App() {
         </div>
       </div>
 
-      <MiApi
-        className='bgAll'
-      />
+      <MiApi/>
     </>
   )
 }

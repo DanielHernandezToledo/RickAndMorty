@@ -43,6 +43,7 @@ export default function MiApi() {
         findCharacters(characters)
     }, [currentPage])
 
+    //Apunta al input y toma los valores
     const handleFindChange = (e) => {
         setFind(e.target.value);
     }
@@ -105,8 +106,8 @@ export default function MiApi() {
                     <div className="sort-options d-flex">
                         <label htmlFor="sortOrder" className="text-success">Sort by Name: </label>
                         <select id="sortOrder" value={sortOrder} onChange={handleSortChange}className="form-control"> 
-                            <option value="asc">Ascending</option>
-                            <option value="desc">Descending</option>
+                            <option value="asc">A - Z</option>
+                            <option value="desc">Z - A</option>
                         </select>
                     </div>
                 </div>
